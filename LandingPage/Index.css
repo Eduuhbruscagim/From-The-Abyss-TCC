@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    font-size: 100%;
+    min-height: 100vh;
+    width: 100vw;
+    background: radial-gradient(139.92% 98.69% at 86.51% 18.73%, #360C70 23.36%, #000 62.66%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.cabecalho-logo {
+    height: 52px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: "Sarala", sans-serif;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid;
+    color: #FFF;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.conteudo-principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo-principal-titulo {
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: Sarala, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-botao {
+    background-color: #ECD6C4;
+    width: 150px;
+    height: 90px;
+    border: none;
+    border-radius: 40px;
+    color: #3C2325;
+    font-family: Sarala;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid;
+    color: #FFF2E7;
+    padding-top: 8px;
+    color: #FFF;
+    font-family: Sarala;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+   color: #ECD6C4;
+   font-family: Sarala;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.rodape {
+    padding-top: 45px;
+    margin-top: 150px;
+    border-top: 0.4px solid;
+    color: #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .conteudo-principal {
+        margin-left: 10vw;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho-menu {
+        gap: 16px;
+    }
+
+    .cabecalho-menu-item {
+        font-size: 14px;
+        white-space: nowrap; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .conteudo-principal-botao {
+        width: 120px;
+        height: 70px;
+        font-size: 20px;
+    }
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+

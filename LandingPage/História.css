@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: radial-gradient(139.92% 98.69% at 86.51% 18.73%, #360C70 23.36%, #000 62.66%);
+    min-height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.titulo-cabecalho {
+    color: #FFF;
+    font-family: Righteous;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.conteudo-principal {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: #FFF;
+}
+
+.conteudo-titulo {
+    margin: 15px;
+    margin-bottom: 0px;
+    color: #FFF2E7;
+    font-family: Sarala;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.conteudo-paragrafo {
+    padding: 15px;
+    color: #ECD6C4;
+    font-family: Sarala;
+    font-size: 14px;
+    font-weight: 400;
+}
