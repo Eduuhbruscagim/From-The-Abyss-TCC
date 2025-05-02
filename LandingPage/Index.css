@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -7,17 +8,21 @@
     text-decoration: none;
 }
 
-html {
-    width: 100%;
-}
 
 body {
     font-size: 100%;
     min-height: 100vh;
     width: 100vw;
     background: radial-gradient(139.92% 98.69% at 86.51% 18.73%, #360C70 23.36%, #000 62.66%);
+    overflow-x: hidden;
 }
 
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Estilos do cabeçalho */
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -42,6 +47,7 @@ body {
     font-size: 18px;
 }
 
+/* Estilos do conteúdo principal */
 .conteudo {
     margin-bottom: 48px;
     border-top: 0.4px solid;
@@ -87,7 +93,7 @@ body {
     font-weight: 400;
 }
 
-
+/* Estilos do conteúdo secundário */
 .conteudo-secundario {
     display: flex;
     flex-direction: column;
@@ -108,12 +114,13 @@ body {
 }
 
 .conteudo-secundario-paragrafo {
-   color: #ECD6C4;
-   font-family: Sarala;
-   font-size: 14px;
-   font-weight: 400;
+    color: #ECD6C4;
+    font-family: Sarala;
+    font-size: 14px;
+    font-weight: 400;
 }
 
+/* Estilos do rodapé */
 .rodape {
     padding-top: 45px;
     margin-top: 150px;
@@ -127,14 +134,13 @@ body {
     margin: 0 auto;
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
     .conteudo-principal {
         margin-left: 10vw;
         flex-wrap: wrap;
     }
-}
 
-@media (max-width: 768px) {
     .cabecalho-menu {
         gap: 16px;
     }
@@ -143,10 +149,7 @@ body {
         font-size: 14px;
         white-space: nowrap; 
     }
-}
 
-
-@media (max-width: 768px) {
     .conteudo-principal-botao {
         width: 120px;
         height: 70px;
@@ -154,10 +157,8 @@ body {
     }
 }
 
-
 img {
     max-width: 100%;
     height: auto;
 }
-
 
