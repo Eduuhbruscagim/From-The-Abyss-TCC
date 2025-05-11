@@ -51,6 +51,7 @@ html {
 
 /* Estilos do conteúdo principal */
 .conteudo {
+  margin-top: 10px; /* Ajustado para diminuir o espaço superior */
   margin-bottom: 48px;
   border-top: 0.4px solid;
   color: #fff;
@@ -73,6 +74,7 @@ html {
   font-weight: 400;
   font-size: 48px;
   color: #fff2e7;
+  margin-top: 0; /* Removido o espaço superior para o título */
 }
 
 .conteudo-principal-subtitulo {
@@ -105,6 +107,7 @@ html {
 }
 
 .conteudo-secundario-titulo {
+  margin-top: 130px; /* Reduzido o espaço entre a borda e o título */
   border-top: 0.4px solid;
   color: #fff2e7;
   padding-top: 8px;
@@ -131,14 +134,9 @@ html {
 }
 
 .rodape-imagem {
-  height: 48px;
-  display: block;
-  margin: 0 auto;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+  font-size: 60px;
+  text-align: center;
+  color: #e9d1bd;
 }
 
 /* Media Queries */
