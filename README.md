@@ -167,5 +167,3 @@ O site melhorado oferece:
 - ⭐ **Código limpo** e bem documentado
 - ⭐ **Responsividade completa** para todos os dispositivos
 
-**Enfim, o site está pronto para impressionar e representar dignamente o projeto From the Abyss!** 🚀
-
